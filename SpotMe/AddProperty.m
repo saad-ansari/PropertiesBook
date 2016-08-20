@@ -26,9 +26,7 @@
 
 {
     [super viewDidLoad];
-    
-    NSLog(@"TEst App");
-    
+        
     CollapsableTableView* tableView = (CollapsableTableView*) tbleView_;
     tableView.collapsableTableViewDelegate = self;
     updateFieldsArray=[[NSMutableArray alloc]init];
