@@ -12,4 +12,5 @@ pod 'iOS-Flip-Transform', '~> 0.0.1'
 pod 'VideoPlayerKit', '~> 1.0.0'
 pod 'JSONKit',       '~> 1.4'
 pod 'SBJson', '~> 4.0.2'
+pod 'MHTextField', '~> 0.5'
 end

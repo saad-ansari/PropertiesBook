@@ -21,11 +21,55 @@
 
 @implementation ContactUs
 @synthesize userDict,isRoot;
+
+
+- (IBAction)createAccount:(id)sender {
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Success" message:@"Do something interesting!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"Ok", nil];
+    
+    if (![self validateInputInView:self.view]){
+        
+        [alertView setMessage:@"Invalid information please review and try again!"];
+        [alertView setTitle:@"Login Failed"];
+    }
+    
+    [alertView show];
+}
+
+
+- (BOOL)validateInputInView:(UIView*)view
+{
+    for(UIView *subView in view.subviews){
+        if ([subView isKindOfClass:[UIScrollView class]])
+            return [self validateInputInView:subView];
+        
+        if ([subView isKindOfClass:[DemoTextField class]]){
+            if (![(MHTextField*)subView validate]){
+                return NO;
+            }
+        }
+    }
+    
+    return YES;
+}
+
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
- 
+
+    
+    // iOS 7
+    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)])
+        [self setEdgesForExtendedLayout:UIRectEdgeTop];
+    
+    [_emailTextField setRequired:YES];
+    [_emailTextField setEmailField:YES];
+    [_passwordTextField setRequired:YES];
+    [_ageTextField setDateField:YES];
+    [_shoppingFrequenceTextField setOptions:@[ @{ @"title":@"Hello111", @"name":@"Danilo" }, @{ @"title":@"Hello222", @"name":@"Danilo"}] withTitleFromKey:@"title"];
+    
     CollapsableTableView* tableView = (CollapsableTableView*) tbleView_;
     tableView.collapsableTableViewDelegate = self;
     updateFieldsArray=[[NSMutableArray alloc]init];

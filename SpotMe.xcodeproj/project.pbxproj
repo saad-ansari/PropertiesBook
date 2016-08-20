@@ -102,6 +102,7 @@
 		CF9CB13A1D685F46009822C3 /* ContactUs_img.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9CB1391D685F46009822C3 /* ContactUs_img.png */; };
 		CF9CB13E1D68621F009822C3 /* AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CB13C1D68621F009822C3 /* AddProperty.m */; };
 		CF9CB13F1D68621F009822C3 /* AddProperty.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9CB13D1D68621F009822C3 /* AddProperty.xib */; };
+		CF9CB1421D68668B009822C3 /* DemoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CB1411D68668B009822C3 /* DemoTextField.m */; };
 		D836C2EB17780A61009328CE /* diet_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D836C2E917780A61009328CE /* diet_button.png */; };
 		D836C2EC17780A61009328CE /* diet_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D836C2EA17780A61009328CE /* diet_button@2x.png */; };
 		D8A32D6017CB5E9A008ADD93 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A32D5F17CB5E9A008ADD93 /* MarqueeLabel.m */; };
@@ -337,6 +338,8 @@
 		CF9CB13B1D68621F009822C3 /* AddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProperty.h; sourceTree = "<group>"; };
 		CF9CB13C1D68621F009822C3 /* AddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProperty.m; sourceTree = "<group>"; };
 		CF9CB13D1D68621F009822C3 /* AddProperty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddProperty.xib; sourceTree = "<group>"; };
+		CF9CB1401D68668B009822C3 /* DemoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTextField.h; sourceTree = "<group>"; };
+		CF9CB1411D68668B009822C3 /* DemoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTextField.m; sourceTree = "<group>"; };
 		D836C2E917780A61009328CE /* diet_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diet_button.png; path = Images/Diet/diet_button.png; sourceTree = SOURCE_ROOT; };
 		D836C2EA17780A61009328CE /* diet_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "diet_button@2x.png"; path = "Images/Diet/diet_button@2x.png"; sourceTree = SOURCE_ROOT; };
 		D8A32D5E17CB5E9A008ADD93 /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
@@ -777,6 +780,8 @@
 		D8A608AC1770DA8F00410C79 /* SpotMe */ = {
 			isa = PBXGroup;
 			children = (
+				CF9CB1401D68668B009822C3 /* DemoTextField.h */,
+				CF9CB1411D68668B009822C3 /* DemoTextField.m */,
 				CF9CB13B1D68621F009822C3 /* AddProperty.h */,
 				CF9CB13C1D68621F009822C3 /* AddProperty.m */,
 				CF9CB13D1D68621F009822C3 /* AddProperty.xib */,
@@ -1153,7 +1158,7 @@
 		D8A6089B1770DA8F00410C79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Sample;
 				TargetAttributes = {
 					D8A608A21770DA8F00410C79 = {
@@ -1393,6 +1398,7 @@
 				D8BE1E48177194BE001DE1A3 /* Singleton.m in Sources */,
 				D8BE1E541771BE59001DE1A3 /* WebServices.m in Sources */,
 				D8BE1E6E1771FDDD001DE1A3 /* MessageViewController.m in Sources */,
+				CF9CB1421D68668B009822C3 /* DemoTextField.m in Sources */,
 				D8BE1E7A17720010001DE1A3 /* DetailViewController.m in Sources */,
 				5A55B147178C821C002788D0 /* SmartUIPicker.m in Sources */,
 				5A55B155178C8280002788D0 /* CustomPicker.m in Sources */,
@@ -1463,7 +1469,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Bassam Al Zain (X3WJA3E3HF)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bassam Al Zain (X3WJA3E3HF)";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;

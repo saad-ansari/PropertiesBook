@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "DemoTextField.h"
 
 @interface ContactUs : UIViewController
 {
@@ -35,4 +36,17 @@
 
 -(IBAction)forImageProgress;
 -(IBAction)forImageChart;
+
+
+@property (strong, nonatomic) IBOutlet DemoTextField *emailTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *passwordTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *firstNameTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *lastNameTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *phoneTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *ageTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *zipTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *shoppingFrequenceTextField;
+
+- (IBAction)createAccount:(id)sender;
+
 @end

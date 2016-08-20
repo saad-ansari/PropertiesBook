@@ -22,11 +22,10 @@
 @implementation AddProperty
 @synthesize userDict,isRoot;
 - (void)viewDidLoad
-
-
 {
     [super viewDidLoad];
-        
+    
+ 
     CollapsableTableView* tableView = (CollapsableTableView*) tbleView_;
     tableView.collapsableTableViewDelegate = self;
     updateFieldsArray=[[NSMutableArray alloc]init];
