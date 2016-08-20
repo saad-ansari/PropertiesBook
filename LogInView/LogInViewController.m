@@ -8,7 +8,7 @@
 
 #import "LogInViewController.h"
 #import "CreateViewController.h"
-#import "SpotMeScreen.h"
+
 #import "UIAlertView+BlocksKit.h"
 #import <BlocksKit/BlocksKit.h>
 @interface LogInViewController ()
@@ -46,8 +46,6 @@
 
 -(IBAction)LoginVC
 {
-    SpotMeScreen *yourViewController = [[SpotMeScreen alloc]init];
-    [self.navigationController pushViewController:yourViewController animated:YES];
     
     if([Singleton connectToInternet])
     {
@@ -100,8 +98,6 @@
         
         if ([myStrForTerm isEqualToString:@"1"])
         {
-            SpotMeScreen *yourViewController = [[SpotMeScreen alloc]init];
-            [self.navigationController pushViewController:yourViewController animated:YES];
         }
         else
             [self ViewWithModel];
@@ -147,8 +143,6 @@
         
         NSLog(@"Response Data %@",responseString);
         
-        SpotMeScreen *yourViewController = [[SpotMeScreen alloc]init];
-        [self.navigationController pushViewController:yourViewController animated:YES];
 
     }];
     [request setFailedBlock:^{

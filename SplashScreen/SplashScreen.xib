@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashScreen">
             <connections>
                 <outlet property="DefaultImage" destination="4" id="9"/>
+                <outlet property="tabbar" destination="SsH-YL-tpv" id="Ql5-c1-945"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -23,5 +24,84 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
         </view>
+        <tabBarController definesPresentationContext="YES" id="SsH-YL-tpv">
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="HNH-ib-DrV" id="vcS-io-moD">
+                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="8Rn-zJ-iTj">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="" id="bOr-jZ-cPY"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="HkR-gT-N5I">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="SoC-gy-omg" customClass="LocateMeViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="Location" id="JJo-6V-iyN"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="d0D-5b-JnS">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="" id="O4P-C2-exQ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="xko-T6-162">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="qAZ-10-OFi" customClass="ComparePeopleViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="Compare" id="8xG-8W-7We"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="tUf-h1-tol">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="" id="fiS-9m-BJQ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="ETd-Sy-j3K">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="vTl-fr-fTz" customClass="MessageViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="Message" id="EAr-my-5YG"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="MmJ-mL-K8S">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="" id="tqW-zj-ITp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="DAj-Id-k5m">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController title="AddProperty" id="ZVb-XG-QBq" customClass="AddProperty">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="AddProperty" id="ZS4-re-fjl"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="ArT-SO-Z97">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="" id="HNH-ib-DrV"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="Ags-wc-Bfc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController title="ContactUs" id="7Rg-4W-0qQ" customClass="ContactUs">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="ContactUs" id="lsN-Ee-l68"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+            </viewControllers>
+            <connections>
+                <outlet property="delegate" destination="-1" id="MSV-BO-yry"/>
+            </connections>
+        </tabBarController>
     </objects>
 </document>

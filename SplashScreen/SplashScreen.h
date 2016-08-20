@@ -11,14 +11,16 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "WebServices.h"
-#import "InfiniTabBar.h"
 
-@interface SplashScreen : UIViewController<InfiniTabBarDelegate>
+
+@interface SplashScreen : UIViewController<UITabBarControllerDelegate>
 
 {
-    InfiniTabBar *tabBar;
+
       IBOutlet UIImageView *DefaultImage;
         IBOutlet UITabBarController *tabbar;
+    
+    
 
 }
 @end

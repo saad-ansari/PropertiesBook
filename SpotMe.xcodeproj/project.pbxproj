@@ -105,7 +105,6 @@
 		CF9CB1421D68668B009822C3 /* DemoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CB1411D68668B009822C3 /* DemoTextField.m */; };
 		D836C2EB17780A61009328CE /* diet_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D836C2E917780A61009328CE /* diet_button.png */; };
 		D836C2EC17780A61009328CE /* diet_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D836C2EA17780A61009328CE /* diet_button@2x.png */; };
-		D8A32D6017CB5E9A008ADD93 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A32D5F17CB5E9A008ADD93 /* MarqueeLabel.m */; };
 		D8A608A71770DA8F00410C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A608A61770DA8F00410C79 /* UIKit.framework */; };
 		D8A608A91770DA8F00410C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A608A81770DA8F00410C79 /* Foundation.framework */; };
 		D8A608AB1770DA8F00410C79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A608AA1770DA8F00410C79 /* CoreGraphics.framework */; };
@@ -142,8 +141,6 @@
 		D8A6090D1770F52500410C79 /* createaccount_facebookbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A609041770F52500410C79 /* createaccount_facebookbutton@2x.png */; };
 		D8A6090E1770F52500410C79 /* createaccount_emailtextfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A609051770F52500410C79 /* createaccount_emailtextfield@2x.png */; };
 		D8BE1E1317717D0B001DE1A3 /* createaccount_DOB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BE1E1217717D0B001DE1A3 /* createaccount_DOB@2x.png */; };
-		D8BE1E1817717E56001DE1A3 /* SpotMeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BE1E1617717E56001DE1A3 /* SpotMeScreen.m */; };
-		D8BE1E1917717E56001DE1A3 /* SpotMeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BE1E1717717E56001DE1A3 /* SpotMeScreen.xib */; };
 		D8BE1E3217717F35001DE1A3 /* mainmenu_middle_topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BE1E2A17717F34001DE1A3 /* mainmenu_middle_topbar@2x.png */; };
 		D8BE1E3317717F35001DE1A3 /* mainmenu_middle_bottombar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BE1E2B17717F34001DE1A3 /* mainmenu_middle_bottombar@2x.png */; };
 		D8BE1E3417717F35001DE1A3 /* mainmenu_profilebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BE1E2C17717F34001DE1A3 /* mainmenu_profilebutton@2x.png */; };
@@ -208,7 +205,6 @@
 		FA9A17AE17F09709005B9D11 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A17AC17F09709005B9D11 /* CustomView.m */; };
 		FA9A17AF17F09709005B9D11 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9A17AD17F09709005B9D11 /* CustomView.xib */; };
 		FA9A17B117F09CEC005B9D11 /* imgeProgress.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9A17B017F09CEB005B9D11 /* imgeProgress.png */; };
-		FABEB15317F31AF200437033 /* InfiniTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FABEB15217F31AF200437033 /* InfiniTabBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -342,8 +338,6 @@
 		CF9CB1411D68668B009822C3 /* DemoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTextField.m; sourceTree = "<group>"; };
 		D836C2E917780A61009328CE /* diet_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diet_button.png; path = Images/Diet/diet_button.png; sourceTree = SOURCE_ROOT; };
 		D836C2EA17780A61009328CE /* diet_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "diet_button@2x.png"; path = "Images/Diet/diet_button@2x.png"; sourceTree = SOURCE_ROOT; };
-		D8A32D5E17CB5E9A008ADD93 /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
-		D8A32D5F17CB5E9A008ADD93 /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
 		D8A608A31770DA8F00410C79 /* SpotMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A608A61770DA8F00410C79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8A608A81770DA8F00410C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -387,9 +381,6 @@
 		D8A609041770F52500410C79 /* createaccount_facebookbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "createaccount_facebookbutton@2x.png"; path = "Images/CreatAccount/createaccount_facebookbutton@2x.png"; sourceTree = SOURCE_ROOT; };
 		D8A609051770F52500410C79 /* createaccount_emailtextfield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "createaccount_emailtextfield@2x.png"; path = "Images/CreatAccount/createaccount_emailtextfield@2x.png"; sourceTree = SOURCE_ROOT; };
 		D8BE1E1217717D0B001DE1A3 /* createaccount_DOB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "createaccount_DOB@2x.png"; path = "Images/CreatAccount/createaccount_DOB@2x.png"; sourceTree = SOURCE_ROOT; };
-		D8BE1E1517717E56001DE1A3 /* SpotMeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpotMeScreen.h; path = SpotMeScreen/SpotMeScreen.h; sourceTree = SOURCE_ROOT; };
-		D8BE1E1617717E56001DE1A3 /* SpotMeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpotMeScreen.m; path = SpotMeScreen/SpotMeScreen.m; sourceTree = SOURCE_ROOT; };
-		D8BE1E1717717E56001DE1A3 /* SpotMeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpotMeScreen.xib; path = SpotMeScreen/SpotMeScreen.xib; sourceTree = SOURCE_ROOT; };
 		D8BE1E2A17717F34001DE1A3 /* mainmenu_middle_topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mainmenu_middle_topbar@2x.png"; path = "Images/SpotMe/mainmenu_middle_topbar@2x.png"; sourceTree = SOURCE_ROOT; };
 		D8BE1E2B17717F34001DE1A3 /* mainmenu_middle_bottombar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mainmenu_middle_bottombar@2x.png"; path = "Images/SpotMe/mainmenu_middle_bottombar@2x.png"; sourceTree = SOURCE_ROOT; };
 		D8BE1E2C17717F34001DE1A3 /* mainmenu_profilebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mainmenu_profilebutton@2x.png"; path = "Images/SpotMe/mainmenu_profilebutton@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -469,8 +460,6 @@
 		FA9A17AC17F09709005B9D11 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomView.m; path = ImageProgressVC/CustomView.m; sourceTree = SOURCE_ROOT; };
 		FA9A17AD17F09709005B9D11 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomView.xib; path = ImageProgressVC/CustomView.xib; sourceTree = SOURCE_ROOT; };
 		FA9A17B017F09CEB005B9D11 /* imgeProgress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgeProgress.png; sourceTree = "<group>"; };
-		FABEB15117F31AF200437033 /* InfiniTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniTabBar.h; sourceTree = "<group>"; };
-		FABEB15217F31AF200437033 /* InfiniTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -732,15 +721,6 @@
 			name = ImageProgress;
 			sourceTree = "<group>";
 		};
-		D8A32D5D17CB5E34008ADD93 /* HeadLines */ = {
-			isa = PBXGroup;
-			children = (
-				D8A32D5E17CB5E9A008ADD93 /* MarqueeLabel.h */,
-				D8A32D5F17CB5E9A008ADD93 /* MarqueeLabel.m */,
-			);
-			name = HeadLines;
-			sourceTree = "<group>";
-		};
 		D8A6089A1770DA8F00410C79 = {
 			isa = PBXGroup;
 			children = (
@@ -808,7 +788,6 @@
 				D8BE1E511771BE4D001DE1A3 /* Webservice */,
 				D8BE1E43177194B0001DE1A3 /* Singleton */,
 				D8BE1E3A17718222001DE1A3 /* Diet */,
-				D8BE1E1417717E3B001DE1A3 /* SpotMeScreen */,
 				D8A608F71770E8D900410C79 /* CreateAccount */,
 				D8A608DD1770E25100410C79 /* Login */,
 				D8A608D51770DDD900410C79 /* Splash */,
@@ -912,19 +891,6 @@
 				D8A608FA1770E8F900410C79 /* CreateViewController.xib */,
 			);
 			name = CreateAccount;
-			sourceTree = "<group>";
-		};
-		D8BE1E1417717E3B001DE1A3 /* SpotMeScreen */ = {
-			isa = PBXGroup;
-			children = (
-				FABEB15117F31AF200437033 /* InfiniTabBar.h */,
-				FABEB15217F31AF200437033 /* InfiniTabBar.m */,
-				D8A32D5D17CB5E34008ADD93 /* HeadLines */,
-				D8BE1E1517717E56001DE1A3 /* SpotMeScreen.h */,
-				D8BE1E1617717E56001DE1A3 /* SpotMeScreen.m */,
-				D8BE1E1717717E56001DE1A3 /* SpotMeScreen.xib */,
-			);
-			name = SpotMeScreen;
 			sourceTree = "<group>";
 		};
 		D8BE1E3A17718222001DE1A3 /* Diet */ = {
@@ -1216,7 +1182,6 @@
 				D8A6090D1770F52500410C79 /* createaccount_facebookbutton@2x.png in Resources */,
 				D8A6090E1770F52500410C79 /* createaccount_emailtextfield@2x.png in Resources */,
 				D8BE1E1317717D0B001DE1A3 /* createaccount_DOB@2x.png in Resources */,
-				D8BE1E1917717E56001DE1A3 /* SpotMeScreen.xib in Resources */,
 				D8BE1E3217717F35001DE1A3 /* mainmenu_middle_topbar@2x.png in Resources */,
 				D8BE1E3317717F35001DE1A3 /* mainmenu_middle_bottombar@2x.png in Resources */,
 				D8BE1E3417717F35001DE1A3 /* mainmenu_profilebutton@2x.png in Resources */,
@@ -1393,7 +1358,6 @@
 				D8A608D91770DDE900410C79 /* SplashScreen.m in Sources */,
 				D8A608E11770E27F00410C79 /* LogInViewController.m in Sources */,
 				D8A608FB1770E8F900410C79 /* CreateViewController.m in Sources */,
-				D8BE1E1817717E56001DE1A3 /* SpotMeScreen.m in Sources */,
 				D8BE1E3E17718231001DE1A3 /* Diet.m in Sources */,
 				D8BE1E48177194BE001DE1A3 /* Singleton.m in Sources */,
 				D8BE1E541771BE59001DE1A3 /* WebServices.m in Sources */,
@@ -1424,7 +1388,6 @@
 				5A27256B17CA0B0800377EBC /* SpreadWordViewController.m in Sources */,
 				5A27258A17CA0DCF00377EBC /* WorkOutGuideViewController.m in Sources */,
 				CF9CB1371D6849DF009822C3 /* ContactUs.m in Sources */,
-				D8A32D6017CB5E9A008ADD93 /* MarqueeLabel.m in Sources */,
 				5AF1272E17E38F20002C972E /* WorkOutTrackerController.m in Sources */,
 				FA144C6A17E8E57300006753 /* LineChartViewController.m in Sources */,
 				CF9CB13E1D68621F009822C3 /* AddProperty.m in Sources */,
@@ -1435,7 +1398,6 @@
 				FA144C7017E8E57300006753 /* WorkViewController.m in Sources */,
 				FA9A17A717F09007005B9D11 /* ImageProgressViewController.m in Sources */,
 				FA9A17AE17F09709005B9D11 /* CustomView.m in Sources */,
-				FABEB15317F31AF200437033 /* InfiniTabBar.m in Sources */,
 				FA43DEEA17F5E081008EBB71 /* VideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1523,7 +1485,7 @@
 			baseConfigurationReference = 4111AA9A23039E3B46207748 /* Pods-SpotMe.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bassam Al Zain (X3WJA3E3HF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jibran Mateen (VVF79T7828)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpotMe/SpotMe-Prefix.pch";
 				INFOPLIST_FILE = "SpotMe/SpotMe-Info.plist";
@@ -1534,8 +1496,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ali.jani.instegramyat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8D111A26-8A04-4D09-821B-A0363D4E0927";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8D111A26-8A04-4D09-821B-A0363D4E0927";
+				PROVISIONING_PROFILE = "94cb571c-822f-44b9-99d0-8aaf235b189e";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "94cb571c-822f-44b9-99d0-8aaf235b189e";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

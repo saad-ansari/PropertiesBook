@@ -44,7 +44,7 @@
     navController=[[UINavigationController alloc] initWithRootViewController:self.viewController];
 
     
-        UIColor *mycolor = [UIColor colorWithRed:(243.0f/255.0f) green:(167.0f/255.0f) blue:(55.0f/255.0f) alpha:1.0f];
+        UIColor *mycolor = [UIColor colorWithRed:(243.0f/255.0f) green:(167.0f/255.0f) blue:(7.0f/255.0f) alpha:1.0f];
     
     [navController.navigationBar setBarTintColor:mycolor];
     [navController.navigationBar setTranslucent:NO];

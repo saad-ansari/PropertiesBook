@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "DemoTextField.h"
-
-@interface ContactUs : UIViewController
+#import "CustomPicker.h"
+@interface ContactUs : UIViewController<UIPickerViewDataSource,UIPickerViewDelegate>
 {
 
 
@@ -22,12 +22,10 @@
     IBOutlet UIDatePicker *datePicker;
     
     AppDelegate *appDelegate;
-    NSArray *sortedKeys;
-    NSMutableArray *updateFieldsArray;
-    NSDateFormatter *dateFormat;
-    
-    IBOutlet UIView *mainViewForChartandImage;
-   
+    IBOutlet UIPickerView *Source;
+    NSMutableArray *SourceArray ;
+    CustomPicker *distancePicker;
+    IBOutlet UIScrollView *contactUSScr;
 }
 @property(nonatomic,assign)BOOL isRoot;
 @property(nonatomic,retain)NSDictionary *userDict;
@@ -39,13 +37,11 @@
 
 
 @property (strong, nonatomic) IBOutlet DemoTextField *emailTextField;
-@property (strong, nonatomic) IBOutlet DemoTextField *passwordTextField;
-@property (strong, nonatomic) IBOutlet DemoTextField *firstNameTextField;
-@property (strong, nonatomic) IBOutlet DemoTextField *lastNameTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *nameTextField;
 @property (strong, nonatomic) IBOutlet DemoTextField *phoneTextField;
-@property (strong, nonatomic) IBOutlet DemoTextField *ageTextField;
-@property (strong, nonatomic) IBOutlet DemoTextField *zipTextField;
-@property (strong, nonatomic) IBOutlet DemoTextField *shoppingFrequenceTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *subjectTextField;
+@property (strong, nonatomic) IBOutlet DemoTextField *sourceTextField;
+
 
 - (IBAction)createAccount:(id)sender;
 
