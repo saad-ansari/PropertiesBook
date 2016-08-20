@@ -1,0 +1,39 @@
+//
+// Prefix header for all source files of the 'SpotMe' target in the 'SpotMe' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Singleton.h"
+#import <BlocksKit/BlocksKit.h>
+#import "SBJson4.h"
+#import"MBProgressHUD.h"
+#import"Macros.h"
+#endif
+
+#define IS_WIDESCREEN ( [ [ UIScreen mainScreen ] bounds ].size.height == 568 )
+
+
+#define SERVER_URL	@"http://www.spotme.biz/webservices/public/index.php?"
+#define SERVER_URL_2	@"http://www.spotme.biz/webservices/public/index.php?"
+
+
+
+#define FirstName	@"Enter Firstname"
+#define LastName	@"Enter Lastname"
+#define Passwords	@"Enter Password"
+#define RePassword	@"Re-Enter Password"
+#define Email	    @"Please enter valid email address."
+#define CorrectEmail	@"Please enter valid email or password."
+#define PasswordMismatchs  @"Passwords do not match."
+#define AgeCalculator  @"Are you 14 years old?"
+
+#define EnterAllField @"Please fill empty fields"
+
