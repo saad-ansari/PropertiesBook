@@ -10,7 +10,7 @@
 #import "UIActionSheet+BlocksKit.h"
 #import "AppDelegate.h"
 #import <FacebookSDK/FacebookSDK.h>
-
+#import "SpotMeScreen.h"
 
 #import "UIAlertView+BlocksKit.h"
 #import <QuartzCore/QuartzCore.h>

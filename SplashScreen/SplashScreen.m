@@ -13,7 +13,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "UIAlertView+BlocksKit.h"
 #import "NSTimer+BlocksKit.h"
-
+#import "SpotMeScreen.h"
 @interface SplashScreen ()
 
 @end
@@ -74,15 +74,10 @@
     }
     
     [NSTimer bk_scheduledTimerWithTimeInterval:1.0 block:^(NSTimer *timer) {
-      
-        [self setTabbarInterface];
-        [tabbar setSelectedIndex:3];
+        SpotMeScreen *yourViewController = [[SpotMeScreen alloc]init];
         
-        tabbar.navigationItem.hidesBackButton = YES;
-
-        
-        [self.navigationController pushViewController:tabbar animated:YES];
-
+  
+        [self.navigationController pushViewController:yourViewController animated:YES];
 
     } repeats:NO];
     
